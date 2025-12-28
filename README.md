@@ -130,3 +130,62 @@ from rxgpt import diagnose
 
 results = diagnose("fever, cough, body pain")
 print(results)
+## 🌸 BLOOM Large Language Model Details
+
+RxGPT is built using the **BLOOM (BigScience Large Open-science Open-access Multilingual) Large Language Model**, an open-source transformer-based model designed for large-scale natural language understanding.
+
+### 🔹 Model Overview
+- **Model Family:** BLOOM
+- **Architecture:** Decoder-only Transformer
+- **Training Organization:** BigScience Workshop
+- **Open-Source:** Yes
+- **Multilingual Support:** Yes
+- **Domain Flexibility:** General-purpose with strong semantic understanding
+
+### 🔹 Why BLOOM for RxGPT?
+BLOOM was selected for the following reasons:
+
+- Strong ability to understand **long-form and unstructured clinical text**
+- Open-source and transparent, suitable for research and enterprise use
+- Capable of capturing **contextual relationships between symptoms**
+- Scalable architecture for backend and service-level integration
+- Aligns with **responsible AI and ethical deployment** standards
+
+### 🔹 Role of BLOOM in RxGPT
+In RxGPT, BLOOM is used to:
+- Encode patient symptom descriptions into semantic representations
+- Capture contextual meaning beyond keyword matching
+- Support disease likelihood estimation
+- Enable intelligent drug recommendation mapping
+
+BLOOM serves as the **core reasoning engine** of the system, enabling natural language understanding in the medical symptom domain.
+
+### 🔹 Deployment Considerations
+- BLOOM models are resource-intensive
+- CPU inference is supported but slow
+- GPU with sufficient VRAM is recommended for production usage
+- Model size can be adjusted based on hardware availability
+
+---
+
+Official Model Pages
+
+Hugging Face – BLOOM Model Page (main repository with weights & docs)
+👉 https://huggingface.co/bigscience/bloom
+ 
+Hugging Face
+
+Hugging Face – Smaller version (560M) (good for local testing/dev)
+👉 https://huggingface.co/bigscience/bloom-560m
+ 
+Hugging Face
+
+📚 Documentation Links
+
+Transformers Library Documentation (BLOOM section)
+👉 https://huggingface.co/docs/transformers/en/model_doc/bloom
+ 
+Hugging Face
+
+BigScience Project Homepage (BLOOM research initiative)
+👉 https://bigscience.huggingface.co/blog/bloom
