@@ -189,3 +189,39 @@ Hugging Face
 
 BigScience Project Homepage (BLOOM research initiative)
 👉 https://bigscience.huggingface.co/blog/bloom
+
+
+## 📌 Upcoming Actions
+
+The following enhancements are planned to evolve RxGPT into a more robust and production-ready clinical decision support system:
+
+### 🔹 Model & AI Improvements
+- Fine-tune BLOOM on domain-specific clinical and symptom datasets
+- Improve disease probability calibration and confidence estimation
+- Introduce prompt optimization and structured inference strategies
+- Evaluate lightweight BLOOM variants for faster inference
+
+### 🔹 Data & Knowledge Expansion
+- Expand disease–drug mapping coverage
+- Add support for multi-symptom and comorbidity scenarios
+- Incorporate structured medical knowledge bases
+- Improve handling of ambiguous or incomplete symptom descriptions
+
+### 🔹 System & Engineering Enhancements
+- Expose the inference pipeline via a secure REST API
+- Add logging and monitoring for model inference
+- Optimize memory usage and inference latency
+- Implement batch inference support
+
+### 🔹 Safety, Validation & Compliance
+- Add drug–drug interaction and contraindication checks
+- Introduce confidence thresholds and uncertainty handling
+- Validate outputs with clinical guidelines
+- Prepare for regulatory and compliance considerations
+
+### 🔹 Deployment & Scalability
+- Containerize the system for reproducible deployment
+- Support GPU and CPU inference configurations
+- Enable horizontal scaling for high-throughput use cases
+- Prepare cloud deployment pipelines
+
